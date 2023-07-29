@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contest 3</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+      <div class="mx-5 container-fluid cont">
+        <a class="navbar-brand" href="#">Complex UI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link Section-1" href="#Flex-div">Section 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Section-2" href="#Photo-gallery">Section 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Section-3" href="#Bootstrap-card-section">Section 3</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- section Herocarousel -->
+    <section id="HeroCarousel">
+      <div id="carouselhero" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active c-items">
+            <img
+              src="./assets/img1.jpg"
+              class="d-block w-100 c-img"
+              alt="image1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First Slide Title</h5>
+              <p>First Slide Discription</p>
+              <button class="btn btn-primary">Call to Action</button>
+            </div>
+          </div>
+          <div class="carousel-item c-items">
+            <img
+              src="./assets/img2.jpg"
+              class="d-block w-100 c-img"
+              alt="image2"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second Slide Title</h5>
+              <p>Second Slide Discription</p>
+              <button class="btn btn-primary">Call to Action</button>
+            </div>
+          </div>
+          <div class="carousel-item c-items">
+            <img
+              src="./assets/img3.jpg"
+              class="d-block w-100 c-img"
+              alt="image3"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third Slide Title</h5>
+              <p>Third Slide Discription</p>
+              <button class="btn btn-primary">Call to Action</button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselhero"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselhero"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--Section Flex div -->
+    <section id="Flex-div">
+      <div class="flex-div-sec d-flex justify-content-center flex-wrap my-lg-5">
+        <div
+          class="flex-div-img d-flex align-items-center mx-2 my-2 flex-column"
+        >
+          <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="300*200 image" />
+          <span>Short discription</span>
+        </div>
+        <div
+          class="flex-div-img d-flex align-items-center mx-2 my-2 flex-column"
+        >
+          <img src="https://images.unsplash.com/photo-1513604170399-52192b510508?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="300*200 image" />
+          <span>Short discription</span>
+        </div>
+        <div
+          class="flex-div-img d-flex align-items-center mx-2 my-2 flex-column"
+        >
+          <img src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="300*200 image" />
+          <span>Short discription</span>
+        </div>
+    </div>
+</section>
+
+<!-- Section Photo gallery -->
+<section id="Photo-gallery">
+        <div class="gallery mx-auto mb-5">
+            <div class="gallery1 mb-5">
+                <div class="one imagea">
+                    <img src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="random">
+                </div>
+                <div class="two imagea">
+                    <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=480&q=80" alt="random">
+                </div>
+                <div class="three imagea">
+                    <img src="https://media.istockphoto.com/id/1530174897/photo/beautiful-tropical-river-landscape.webp?s=170667a&w=0&k=20&c=Eyc6ItqqhzZSc7EKb-F7hHpyhMk0anjiRKaOzrrjYBQ=" alt="random">
+                </div>
+                <div class="four imagea">
+                    <img src="https://media.istockphoto.com/id/1402988840/photo/coconut-trees-on-the-island-and-the-sea-on-a-summer-morning-from-above.webp?s=170667a&w=0&k=20&c=J7vmDY4GE1Z4lu1tZtOf0g-6lBZrPzNiMfxuvt5PQ4U=" alt="random">
+                </div>
+                <div class="five imagea">
+                    <img src="https://media.istockphoto.com/id/538708815/photo/bora-bora-atoll-picnic.webp?s=170667a&w=0&k=20&c=PKNa5CEr79QDT0zrdsWGYdizZYaqhFZAap0Mrn6t-i4=" alt="random">
+                </div>
+                <div class="six imagea">
+                    <img src="https://images.unsplash.com/photo-1602086566212-ef4fcb89cff6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="random">
+                </div>
+                <div class="seven imagea">
+                    <img src="https://images.unsplash.com/photo-1533498286670-044582436fe5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80" alt="random">
+                </div>
+                <div class="eight imagea">
+                    <img src="https://images.unsplash.com/photo-1568849676085-51415703900f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="random">
+                </div>
+                <div class="nine imagea">
+                    <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="random">
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Bootstrap card section -->
+    <section id="Bootstrap-card-section">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="card-div d-flex justify-content-center flex-wrap">
+          <div class="card m-2 Small shadow" style="width: 24rem">
+            <img
+              src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+              class="card-img-top"
+              alt="card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">Card Discription</p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+
+          <div class="card m-2 Small shadow" style="width: 24rem">
+            <img
+              src="https://images.unsplash.com/photo-1491438685042-6e6d559f350a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+              class="card-img-top"
+              alt="card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">Card Discription</p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+
+          <div class="card m-2 Small shadow" style="width: 24rem">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1661384368133-9cdaec624b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+              class="card-img-top"
+              alt="card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">Card Discription</p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="my-5"></div>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="bg-body-tertiary py-4 foot">
+        <div class="d-flex py-3 foot-c">
+          <div class="d-flex flex-column col-4">
+            <ul class="list-unstyled">
+              <h5>Usefull Links</h5>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+
+          <div class="d-flex flex-column col-4">
+            <ul class="list-unstyled">
+              <h5>More Links</h5>
+              <li><a href="#">Link 4</a></li>
+              <li><a href="#">Link 5</a></li>
+              <li><a href="#">Link 6</a></li>
+            </ul>
+          </div>
+          <div class="d-flex flex-column">
+            <h5>Contact US</h5>
+            <span>Email: example@example.com</span>
+            <span>Phone: +1 (555) 123-4567</span>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between">
+          <span>© 2023 Complex UI. All Rights Reserved.</span>
+          <a href="#" class="btn btn-primary">Back to Top</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
